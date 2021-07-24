@@ -55,6 +55,7 @@ for w in words:
 
 pos_score = sum(senpos)
 neg_score = sum(senneg)
+#skor antara -5 hingga +5
 sentiment = (pos_score + neg_score) / (len(senpos) + len(senneg))
 
 print(pos_score)

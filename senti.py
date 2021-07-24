@@ -31,7 +31,7 @@ for w in word:
 #save the indonesian opinion words in dict
 positive = {}
 negative = {}
-for w in pos.iterrows():
+for w in pos.iterrows(): 
     if type(w[1].word) == str:
         positive[w[1].word] = w[1].weight
 for w in neg.iterrows():
